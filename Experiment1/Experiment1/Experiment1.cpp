@@ -13,7 +13,7 @@ int main()
 	cout << fHuge << endl;
 	fHuge *= 1.0e38f; // result = infinity
 	cout << fHuge << endl;
-	fHuge /= 1.0e38f; // ????
+	fHuge /= 1.0e38f; // My case the result is inf too
 	cout << fHuge << endl;
 	cin >> stop;
     return 0;
