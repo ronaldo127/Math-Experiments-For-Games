@@ -2,11 +2,10 @@
 //
 
 #include "stdafx.h"
-#include <iostream>
 
 using namespace std;
 
-int main()
+int main1()
 {
 	char stop; 
 	float fHuge = 1.0e30f; // valid single precision
