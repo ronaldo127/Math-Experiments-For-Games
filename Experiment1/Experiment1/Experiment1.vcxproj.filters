@@ -24,15 +24,21 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Experiment2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Experiment1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Experiment2.cpp">
+    <ClCompile Include="TestVector3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

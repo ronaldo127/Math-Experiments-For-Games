@@ -10,7 +10,7 @@ float TestFunction(float fValue)
 	return fValue;
 }
 
-int main()
+int main2()
 {
 	int i;
 	float fTest;
