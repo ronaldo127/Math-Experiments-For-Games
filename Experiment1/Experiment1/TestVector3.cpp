@@ -23,6 +23,10 @@ int main() {
 
 	printVector(&(teste.Normalized()));
 
+	cout << one.Dot(i) << endl;
+	cout << i.Dot(j) << endl;
+	cout << j.Dot(k) << endl;
+
 	cin >> trash;
 
 }

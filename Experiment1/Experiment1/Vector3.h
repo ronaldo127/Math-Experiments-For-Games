@@ -42,26 +42,31 @@ public:
 
 	friend Vector3 operator/(const Vector3& v, float a)
 	{
-		return Vector3(v.x/a, v.y/a, v.z/a);
+		return Vector3(v.x / a, v.y / a, v.z / a);
 	}
 
 	friend Vector3 operator/(float a, const Vector3& v)
 	{
-		return v/a;
+		return v / a;
 	}
 
 	float
-	Vector3::Length() {
+		Vector3::Length() {
 		return sqrt(x*x + y*y + z*z);
 	}
 
 	Vector3
-	Vector3::Normalized() {
+		Vector3::Normalized() {
 		float len = this->Length();
-		if (len>0.001f)
+		if (len > 0.001f)
 			return Vector3(x / len, y / len, z / len);
 		else
 			return Vector3(0, 0, 0);
+	}
+
+	float
+	Vector3::Dot(const Vector3 w){
+		return this->x*w.x + this->y*w.y + this->z*w.z;
 	}
 
 private:
