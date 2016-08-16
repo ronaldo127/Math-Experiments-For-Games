@@ -17,8 +17,11 @@ int main() {
 	printVector(&zero);
 	teste = zero;
 	printVector(&teste);
-	teste = teste + 5*i + k*2;
+	teste = teste + 3*i + k*4;
 	printVector(&teste);
+	cout << teste.Length() << endl;
+
+	printVector(&(teste.Normalized()));
 
 	cin >> trash;
 
