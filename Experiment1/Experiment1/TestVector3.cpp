@@ -26,6 +26,7 @@ int main() {
 	cout << one.Dot(i) << endl;
 	cout << i.Dot(j) << endl;
 	cout << j.Dot(k) << endl;
+	printVector(&(i.Cross(j)));
 
 	cin >> trash;
 

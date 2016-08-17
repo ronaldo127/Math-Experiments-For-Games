@@ -69,6 +69,14 @@ public:
 		return this->x*w.x + this->y*w.y + this->z*w.z;
 	}
 
+	Vector3
+		Vector3::Cross(const Vector3& other)
+	{
+		return Vector3(y*other.z - other.y*z,
+			z*other.x - other.z*x,
+			x*other.y - other.x*y);
+	}
+
 private:
 	float x, y, z;
 
